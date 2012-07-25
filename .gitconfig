@@ -1,0 +1,28 @@
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = green
+  remote = red
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[alias]
+  st = status -sb
+  ci = commit
+  co = checkout
+  br = branch
+  di = diff
+  dif = diff
+  onelog = log -p -1 --abbrev-commit
+  ld = log --graph --abbrev-commit --decorate --all
+  l = log --graph --oneline --abbrev-commit --decorate --all
+[user]
+  name = Ruoran Liu
+  email = rrliu@thoughtworks.com
