@@ -22,7 +22,7 @@
   dif = diff
   onelog = log -p -1 --abbrev-commit
   ld = log --graph --abbrev-commit --decorate --all
-  l = log --graph --oneline --abbrev-commit --decorate --all
+  l = log --graph --oneline --decorate --all
 [user]
   name = Ruoran Liu
   email = rrliu@thoughtworks.com
