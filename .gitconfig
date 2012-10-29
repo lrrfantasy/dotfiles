@@ -18,8 +18,7 @@
   ci = commit
   co = checkout
   br = branch
-  di = diff
-  dif = diff
+  df = diff
   onelog = log -p -1 --abbrev-commit
   ld = log --graph --abbrev-commit --decorate --all
   l = log --graph --oneline --decorate --all
