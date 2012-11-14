@@ -2,7 +2,7 @@ export PS1="\W \u\$ "
 source ~/.bash_aliases
 source ~/code/go/go.sh
 
-DEV_LIB_HOME=/Users/tw/dev_library
+export DEV_LIB_HOME=/Users/tw/dev_library
 GROOVY_HOME=${DEV_LIB_HOME}/groovy-1.8.6
 GRADLE_HOME=${DEV_LIB_HOME}/gradle-1.0-milestone-8a
 
