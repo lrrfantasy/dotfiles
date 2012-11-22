@@ -6,7 +6,7 @@ alias bb='cd ../..'
 alias bbb='cd ../../..'
 alias bbbb='cd ../../../..'
 alias bbbbb='cd ../../../../..'
-alias grep='grep -n --color=auto'
+alias grep='grep --color=auto'
 
 # Browser Alias
 alias ch='open -a /Applications/Google\ Chrome.app/'
