@@ -1,0 +1,39 @@
+#!/bin/sh
+
+filelist=( .bashrc .bash_aliases .bash_profile .gitconfig .git-completion.bash .inputrc .vimrc .vim/ )
+
+if [[ $1 = "diff" ]]; then
+  shift
+  hash git &>/dev/null
+  if [ $? -eq 0 ]; then
+    git diff --no-index --color-words $1 ~/$1
+  else
+    diff $1 ~/$1
+  fi
+  if [ $? -eq 0 ]; then
+    echo "$1 is sync-ed"
+  fi
+elif [[ $1 = "update" ]]; then
+  shift
+  if [ -d $1 ]; then
+    cp -r ~/$1 $1
+  else
+    cp ~/$1 $1
+  fi
+elif [[ $1 = "revert" ]]; then
+  shift
+  if [ -d $1 ]; then
+    cp -r $1 ~/$1
+  else
+    cp $1 ~/$1
+  fi
+else
+  for file in ${filelist[@]}
+  do
+    diff $file ~/$file &>/dev/null
+  
+    if [ $? -ne 0 ]; then
+      echo "$file is unsync-ed."
+    fi
+  done
+fi
