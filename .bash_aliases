@@ -13,6 +13,7 @@ alias bbbbb='cd ../../../../..'
 # Other
 alias grep='grep --color=auto'
 alias diff='difference'
+alias which='whichen'
 alias reload='source ~/.bashrc'
 
 # Browser Alias
