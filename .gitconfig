@@ -19,6 +19,7 @@
   co = checkout
   br = branch
   df = diff
+  dfc = diff --cached
   onelog = log -p -1 --abbrev-commit
   ld = log --graph --decorate --all
   l = log --graph --oneline --decorate --all
