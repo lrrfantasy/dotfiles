@@ -20,6 +20,8 @@
   br = branch
   df = diff
   dfc = diff --cached
+  pr = pull --rebase
+  ps = push
   onelog = log -p -1 --abbrev-commit
   ld = log --graph --decorate --all
   l = log --graph --oneline --decorate --all
