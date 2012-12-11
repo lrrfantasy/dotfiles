@@ -12,4 +12,4 @@ PATH=$PATH:${GROOVY_HOME}/bin:${GRADLE_HOME}/bin
 PATH=$PATH:$HOME/.rvm/bin
 
 # Shell command I write
-PATH=$PATH:$HOME/code/my_shell_commands
+PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/nile
