@@ -15,7 +15,6 @@ alias grep='grep --color=auto'
 alias diff='difference'
 alias which='whichen'
 alias reload='source ~/.bashrc'
-alias clean='find . | xargs rm -rf'
 
 # Browser Alias
 alias ch='open -a /Applications/Google\ Chrome.app/'
