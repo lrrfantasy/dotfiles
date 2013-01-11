@@ -25,6 +25,7 @@
   onelog = log -p -1 --abbrev-commit
   ld = log --graph --decorate --all
   l = log --graph --oneline --decorate --all
+  hub = !git remote -v | sed "'s|.*git[:@]\\(.*\\).git.*|http://\\1|;s|m:|m/|'" | uniq | xargs open
 [user]
   name = Ruoran Liu
   email = rrliu@thoughtworks.com
