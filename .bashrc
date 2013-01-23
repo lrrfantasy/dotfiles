@@ -16,5 +16,8 @@ PATH=$PATH:$HOME/.rvm/bin
 # Shell command I write
 PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/nile
 
-export http_proxy=http://10.10.1.116:3128
+# Terminal title
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'
+
+# Tab complete for sudo
+complete -cf sudo
