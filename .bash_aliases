@@ -11,6 +11,7 @@ alias bbbb='cd ../../../..'
 alias bbbbb='cd ../../../../..'
 
 # Other
+alias mkdir='mkdir -p'
 alias grep='grep --color=auto'
 alias diff='difference'
 alias which='whichen'
