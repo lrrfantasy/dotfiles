@@ -1,5 +1,7 @@
 export PS1="\W \$ "
 source ~/.bash_aliases
+
+# Import functions
 export GO_HOME=~/code/go
 source $GO_HOME/go.sh
 source ~/.git-completion.bash
@@ -19,5 +21,6 @@ PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/nile
 # Terminal title
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'
 
-# Tab complete for sudo
+# Tab complete for sudo/man
 complete -cf sudo
+complete -cf man
