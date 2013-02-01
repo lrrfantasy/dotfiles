@@ -21,6 +21,9 @@ PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/nile
 # Terminal title
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'
 
+# Editor
+export EDITOR='vim'
+
 # Tab complete for sudo/man
 complete -cf sudo
 complete -cf man
