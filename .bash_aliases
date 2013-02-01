@@ -19,8 +19,9 @@ alias reload='source ~/.bashrc'
 alias pyserver='python -m SimpleHTTPServer'
 alias myip='ifconfig | grep broadcast | cut -d " " -f2'
 
-# Browser Alias
+# Mac Application Alias
 alias ch='open -a /Applications/Google\ Chrome.app/'
 alias sf='open -a /Applications/Safari.app/'
 alias ff='open -a /Applications/Firefox.app/'
 alias op='open -a /Applications/Opera.app/'
+alias mou='open -a /Applications/Mou.app/'
