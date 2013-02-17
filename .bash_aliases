@@ -16,7 +16,7 @@ alias grep='grep --color=auto'
 alias diff='difference'
 alias which='whichen'
 alias reload='source ~/.bashrc'
-alias pyserver='python -m SimpleHTTPServer'
+alias pyserver='open http://localhost:8000 && python -m SimpleHTTPServer'
 alias myip='ifconfig | grep broadcast | cut -d " " -f2'
 
 # Mac Application Alias
