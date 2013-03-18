@@ -16,7 +16,7 @@ PATH=$PATH:${GROOVY_HOME}/bin:${GRADLE_HOME}/bin
 PATH=$PATH:$HOME/.rvm/bin
 
 # Shell command I write
-PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/nile
+PATH=$PATH:$HOME/code/my_shell_commands:$HOME/code/my_shell_commands/git-extra:$HOME/code/nile
 
 # Terminal title
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'

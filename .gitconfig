@@ -26,7 +26,7 @@
   ld = log --graph --decorate --all
   l = log --graph --oneline --decorate --all
   hub = !git remote -v | sed "'s|.*git[:@]\\(.*\\).git.*|http://\\1|;s|m:|m/|'" | uniq | xargs open
-  ignore = !echo >> .gitignore
+  ignore = !git-ignore
 [user]
   name = Ruoran Liu
   email = rrliu@thoughtworks.com
