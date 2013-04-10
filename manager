@@ -1,6 +1,6 @@
 #!/bin/sh
 
-filelist=( .bashrc .bash_aliases .bash_profile .gitconfig .git-completion.bash .inputrc .vimrc .vim/ )
+filelist=( .bashrc .bash_aliases .bash_profile .gitconfig .git-completion.bash .gitignore_global .inputrc .vimrc .vim/ )
 
 if [[ $1 = "diff" ]]; then
   shift
