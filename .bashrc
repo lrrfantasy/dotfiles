@@ -24,6 +24,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD/$HOME/~}\007"'
 # Editor
 export EDITOR='vim'
 
-# Tab complete for sudo/man
+# Tab complete for sudo/man/which
 complete -cf sudo
 complete -cf man
+complete -cf which
