@@ -1,6 +1,8 @@
 export PS1="\W \$ "
 source ~/.bash_aliases
 
+export LC_CTYPE="en_US.UTF-8"
+
 # Import functions
 export GO_HOME=~/code/go
 source $GO_HOME/go.sh
@@ -28,3 +30,5 @@ export EDITOR='vim'
 complete -cf sudo
 complete -cf man
 complete -cf which
+
+complete -C aws_completer aws
