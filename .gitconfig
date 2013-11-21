@@ -29,6 +29,8 @@
   hub = !git remote -v | sed "'s|.*git[:@]\\(.*\\).git.*|http://\\1|;s|m:|m/|'" | uniq | xargs open
   ignore = !git-ignore
   alias = !git-alias
+[push]
+  default = upstream
 [user]
   name = Ruoran Liu
   email = rrliu@thoughtworks.com
