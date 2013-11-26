@@ -19,7 +19,6 @@ alias reload='source ~/.bashrc'
 alias pyserver='open http://localhost:8000 && python -m SimpleHTTPServer'
 alias jkserver='open http://localhost:4000 && jekyll serve -w'
 alias myip='ifconfig | grep broadcast | cut -d " " -f2'
-alias aliyun='echo 6910ce60 && ssh root@121.199.50.6'
 
 # Mac Application Alias
 alias ch='open -a /Applications/Google\ Chrome.app/'
