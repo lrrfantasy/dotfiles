@@ -9,10 +9,15 @@ source $GO_HOME/go.sh
 source ~/.git-completion.bash
 
 export DEV_LIB_HOME=/Users/tw/dev_library
-GROOVY_HOME=${DEV_LIB_HOME}/groovy-1.8.6
-GRADLE_HOME=${DEV_LIB_HOME}/gradle-1.3
+export GROOVY_HOME=${DEV_LIB_HOME}/groovy-1.8.6
+export GRADLE_HOME=${DEV_LIB_HOME}/gradle-1.3
+export MAGICK_HOME=${DEV_LIB_HOME}/ImageMagick
 
-PATH=$PATH:${GROOVY_HOME}/bin:${GRADLE_HOME}/bin
+PATH=$PATH:${GROOVY_HOME}/bin:${GRADLE_HOME}/bin:${MAGICK_HOME}/bin
+PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.3/bin
+
+export DYLD_LIBRARY_PATH=${MAGICK_HOME}/lib/
+export CQ_ENV_PATH=${DEV_LIB_HOME}/cq
 
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
