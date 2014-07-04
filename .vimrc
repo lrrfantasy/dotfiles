@@ -9,8 +9,10 @@ set expandtab
 "Treat all numerals as Decimal"
 set nrformats=
 
+execute pathogen#infect()
 syntax on
-let mapleader=","
+filetype plugin indent on
 
+let mapleader=","
 nmap <c-n> :NERDTree<CR>
 nmap <leader>b :Bufstop<CR>
