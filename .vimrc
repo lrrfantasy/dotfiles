@@ -16,3 +16,4 @@ filetype plugin indent on
 let mapleader=","
 nmap <c-n> :NERDTree<CR>
 nmap <leader>b :Bufstop<CR>
+imap <Tab> <c-p>
